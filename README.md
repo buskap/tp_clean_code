@@ -20,7 +20,10 @@ Installation et initialisation d'un venv
 
 cf. https://docs.python.org/3/library/venv.html en cas de difficulté
 
-### Requirements 
+### Clone and Requirements 
+Une fois dans le venv, clone du projet git
+    git clone https://github.com/buskap/tp_clean_code.git
+    cd tp_clean_code
 Installation des dépendances
     pip install -r requirements.txt
 
