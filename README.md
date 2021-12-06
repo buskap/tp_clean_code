@@ -1,5 +1,6 @@
 # API Clean Code TP Noté 
 L'objectif de cette api met en place un système de clé permettant la validation de l'identifiant d'un client. 
+
 Le projet à été développer en python avec le framework Flask.
 
 ## Arborescence du projet 
@@ -14,17 +15,24 @@ Le projet à été développer en python avec le framework Flask.
 ## Procédure d'installation
 ### Venv
 Installation et initialisation d'un venv
+    
     python3 -m venv .env
+    
     cd .env
+    
     source bin/activate
 
 cf. https://docs.python.org/3/library/venv.html en cas de difficulté
 
 ### Clone and Requirements 
 Une fois dans le venv, clone du projet git
+    
     git clone https://github.com/buskap/tp_clean_code.git
+    
     cd tp_clean_code
+
 Installation des dépendances
+
     pip install -r requirements.txt
 
 ## Run api 
@@ -33,10 +41,12 @@ Installation des dépendances
 
 ### Accès et utilisation de l'api
 Le serveur ce lance sur le localhost au port 5000    
+    
     127.0.0.1:5000
 
 ### Verification d'une clé 
 Les clé doivent respecter la forme suivante : 
+    
     cle = key + id 
     # cle -> (str)
     key = unique caractère majuscule (A-Z)
@@ -44,9 +54,11 @@ Les clé doivent respecter la forme suivante :
     ex : "A123456789"
 
 Requête :
+    
     127.0.0.1:5000/client/cle/verification?id=A123456789
 
 Réponse : 
+    
     {"request":"J133486789","result":0,"status":"ok"}
     request : id testé
     result : 0 si id validé, 1 sinon
