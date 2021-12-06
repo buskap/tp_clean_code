@@ -5,6 +5,7 @@ Le projet à été développer en python avec le framework Flask.
 
 ## Arborescence du projet 
 
+'''bash
 .
 ├── functions
 │   └── functions.py
@@ -12,6 +13,7 @@ Le projet à été développer en python avec le framework Flask.
 │   └── tests.py
 ├── README.md
 └── apy.py
+'''
 
 ## Procédure d'installation
 ### Venv
