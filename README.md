@@ -16,10 +16,8 @@ Le projet à été développer en python avec le framework Flask.
 ### Venv
 Installation et initialisation d'un venv
     
-    python3 -m venv .env
-    
-    cd .env
-    
+    python3 -m venv .env 
+    cd .env    
     source bin/activate
 
 cf. https://docs.python.org/3/library/venv.html en cas de difficulté
@@ -27,8 +25,7 @@ cf. https://docs.python.org/3/library/venv.html en cas de difficulté
 ### Clone and Requirements 
 Une fois dans le venv, clone du projet git
     
-    git clone https://github.com/buskap/tp_clean_code.git
-    
+    git clone https://github.com/buskap/tp_clean_code.git    
     cd tp_clean_code
 
 Installation des dépendances
@@ -60,6 +57,7 @@ Requête :
 Réponse : 
     
     {"request":"J133486789","result":0,"status":"ok"}
+    
     request : id testé
     result : 0 si id validé, 1 sinon
     status : état du traitement
