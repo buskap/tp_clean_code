@@ -5,15 +5,13 @@ Le projet à été développer en python avec le framework Flask.
 
 ## Arborescence du projet 
 
-'''bash
-.
-├── functions
-│   └── functions.py
-├── tests
-│   └── tests.py
-├── README.md
-└── apy.py
-'''
+    .
+    ├── functions
+    │   └── functions.py
+    ├── tests
+    │   └── tests.py
+    ├── README.md
+    └── apy.py
 
 ## Procédure d'installation
 ### Venv
