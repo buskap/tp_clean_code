@@ -4,6 +4,7 @@ L'objectif de cette api met en place un système de clé permettant la validatio
 Le projet à été développer en python avec le framework Flask.
 
 ## Arborescence du projet 
+
 .
 ├── functions
 │   └── functions.py
