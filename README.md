@@ -25,6 +25,7 @@ Installation des dépendances
     pip install -r requirements.txt
 
 ## Run api 
+    export FLASK_APP=api
     flask run
 
 ### Accès et utilisation de l'api

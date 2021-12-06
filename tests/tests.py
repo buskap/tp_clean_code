@@ -1,6 +1,12 @@
-import functions.functions
+#!/usr/bin/python3
 
-def testKeyVerification():
-    id = "A123456789"
-    res = functions.functions.keyVerification(id)
-    print(res)
+import functions
+from functions.functions import keyVerification
+
+class Tests:
+    def testKeyVerification():
+        id = "A123456789"
+        res = functions.keyVerification(id)
+        print(res)
+
+    testKeyVerification()

@@ -10,11 +10,7 @@ app.config["DEBUG"] = True
 
 @app.route('/', methods=['GET'])
 def home():
-    return jsonify({
-                'status': 'ok',
-                'request': "A123456789",
-                'result': 1,
-            })
+    return "<h1>API TP Clean Code</h1> <p>Endpoint : localhost:5000/client/cle/verification</p>"
 @app.route('/client/cle/verification/', methods=['GET'])
 def verif():
     id = request.args.get('id', None)
